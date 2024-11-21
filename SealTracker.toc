@@ -2,6 +2,6 @@
 ## Title: Seal Tracker for TWOW - Tracking any active Seal
 ## Notes: Shows which seal is currently active next to character.
 ## Author: d0llerp
-## Version: 1.0
+## Version: 1.1
 
 SealTracker.lua

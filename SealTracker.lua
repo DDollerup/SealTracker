@@ -1,3 +1,10 @@
+function print(msg)
+    if DEFAULT_CHAT_FRAME then
+        DEFAULT_CHAT_FRAME:AddMessage("|cff00ff00[SealTracker by Dollerp]:|r " .. tostring(msg))
+    end
+end
+
+
 -- Create a frame to handle events
 local sealTrackerFrame = CreateFrame("Frame", "sealTrackerFrame", UIParent)
 sealTrackerFrame:RegisterEvent("UNIT_AURA")
@@ -121,4 +128,4 @@ sealTrackerFrame:SetScript("OnEvent", function()
     end
 end)
 
-print("SealTracker by Dollerp - Loaded")
+print("Loaded")
